@@ -8,6 +8,7 @@ function Home(){
             <h1>Home</h1>
             <Contador />
             <p>Test</p>
+            <a href="/sobre">Acessar página *SOBRE*</a>
         </div>
         
     )
