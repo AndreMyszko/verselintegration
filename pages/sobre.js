@@ -1,9 +1,16 @@
+import Link from 'next/link';
+
 function Sobre(){
     return (
         //Carregamento do HTML da página está sendo feito a
         <div>
-            <h1>Sobre</h1>
-            <a href="/">Acessar página *HOME*</a>
+
+            <h1>Página Sobre</h1>
+
+            <Link href="/">
+            <a>Acessar página *HOME* aqui</a>          
+            </Link>
+
         </div>
         
     )
