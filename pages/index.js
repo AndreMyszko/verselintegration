@@ -5,7 +5,7 @@ function Home(){
     return (
         //Carregamento do HTML da página está sendo feito aqui.
         <div>
-            <h1>Home</h1>
+            <h1>Home de Teste</h1>
             <Contador />
             <p>Test</p>
         </div>
