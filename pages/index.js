@@ -1,6 +1,17 @@
 //import React from 'react';
 import Link from 'next/link';
 
+//************ESSE CÓDIGO É PARA ACESSAR O BACKEND ANTES DE APRESENTAR A PÁGINA... */
+// export async function getServerSideProps(context){
+//     const id = context.query.id;
+
+//     return {
+//         props: {
+//             id: id
+//         }
+//     }
+// }
+
 function Home() {
     return (
         //Carregamento do HTML da página está sendo feito aqui.
